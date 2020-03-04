@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/04 07:47:28.000.215,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:01:31.000.082,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:09:02.000.822,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:17:27.000.590,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsuario.View.Principal.dfm=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/03/04 08:17:27.000.590,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsuario.View.Principal.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:17:40.000.550,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:18:32.000.647,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Conexao.Faredac.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:18:46.000.929,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsuario.dproj=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/03/04 08:22:58.000.394,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 08:23:22.000.080,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Conexao.Interfaces.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 09:14:17.000.210,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 09:14:28.000.393,C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Interfaces.pas</Transaction>
+    <Transaction>2020/03/04 09:15:03.000.884,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Interfaces.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Faredac.pas</Transaction>
+    <Transaction>2020/03/04 09:15:36.000.290,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Faredac.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Faredac.Clientes.pas</Transaction>
+    <Transaction>2020/03/04 09:16:06.000.972,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Faredac.Clientes.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Clientes.pas</Transaction>
+    <Transaction>2020/03/04 09:40:17.000.703,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Clientes.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.View.Query.Firedac.pas</Transaction>
+    <Transaction>2020/03/04 13:45:04.095,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 13:46:25.955,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.Model.Entidade.Usuario.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 13:56:49.343,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 14:01:42.076,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.Controller.Factory.Query.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 14:14:07.378,=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 14:14:36.678,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.Model.Factory.Interfaces.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/04 14:16:37.643,C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.Controller.Factory.Interfaces.pas=C:\Users\rti\Documents\Embarcadero\Studio\Projects\eUsusario.Model.Factory.Interfaces.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="eUsuario.View.Principal.pas"/>
+    <File Path="eUsuario.View.Principal.dfm"/>
+    <File Path="eUsusario.View.Conexao.Faredac.pas"/>
+    <File Path="eUsusario.View.Conexao.Interfaces.pas"/>
+    <File Path="eUsusario.View.Query.Firedac.pas"/>
+    <File Path="eUsusario.Model.Entidade.Usuario.pas"/>
+    <File Path="eUsusario.Controller.Factory.Query.pas"/>
+    <File Path="eUsusario.Controller.Factory.Interfaces.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
