@@ -14,11 +14,13 @@ Type
  ['{733D3424-1A9A-4948-ADC6-6CEA4B6F4B7C}']
  function SQL(Value : String) : iQuery;
  function DataSet : TDataSet;
+ function Open(aSQL : String) : iQuery;
  end;
 
  iEntidade = interface
    ['{832976AC-317B-4656-8A19-F771D6D5C1E2}']
    function Listar(Value : TDataSource) : iEntidade;
+   procedure Open;
  end;
 
 

@@ -1,0 +1,20 @@
+program eUsuario;
+
+uses
+  Vcl.Forms,
+  eUsuario.View.Principal in 'eUsuario.View.Principal.pas' {Form1},
+  eUsusario.View.Conexao.Faredac in 'eUsusario.View.Conexao.Faredac.pas',
+  eUsusario.View.Conexao.Interfaces in 'eUsusario.View.Conexao.Interfaces.pas',
+  eUsusario.View.Query.Firedac in 'eUsusario.View.Query.Firedac.pas',
+  eUsusario.Model.Entidade.Usuario in 'eUsusario.Model.Entidade.Usuario.pas',
+  eUsusario.Controller.Factory.Query in 'eUsusario.Controller.Factory.Query.pas',
+  eUsusario.Controller.Factory.Interfaces in 'eUsusario.Controller.Factory.Interfaces.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

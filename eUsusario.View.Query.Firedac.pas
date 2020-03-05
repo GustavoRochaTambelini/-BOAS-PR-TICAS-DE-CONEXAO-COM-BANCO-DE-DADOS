@@ -20,6 +20,7 @@ Type
     class function New(Parrent : iConexao) : iQuery;
     function SQL(Value : String) : iQuery;
     function DataSet : TDataSet;
+    function Open(aSQL : String) : iQuery;
   end;
 
 implementation
@@ -56,6 +57,12 @@ begin
   Result := Self.Create(Parrent);
 end;
 
+
+function TModelQueryFiredac.Open(aSQL : String) : iQuery;
+begin
+  Result := Self;
+  FQuery.Open(aSQL);
+end;
 
 function TModelQueryFiredac.SQL(Value: String): iQuery;
 begin

@@ -13,6 +13,7 @@ TModelEntidadeUsuario = class(TInterfacedObject, iEntidade)
     destructor Destroy; override;
     class function New : iEntidade;
     function Listar(Value : TDataSource) : iEntidade;
+    procedure Open;
 end;
 
 implementation
@@ -43,6 +44,11 @@ end;
 class function TModelEntidadeUsuario.New: iEntidade;
 begin
   Result := Self.Create;
+end;
+
+procedure TModelEntidadeUsuario.Open;
+begin
+  FQuery.Open('SELECT * FROM PRODUTO');
 end;
 
 end.

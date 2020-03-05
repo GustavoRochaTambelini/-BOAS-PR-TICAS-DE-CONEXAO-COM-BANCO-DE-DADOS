@@ -8,7 +8,9 @@ uses
   eUsusario.View.Query.Firedac in 'eUsusario.View.Query.Firedac.pas',
   eUsusario.Model.Entidade.Usuario in 'eUsusario.Model.Entidade.Usuario.pas',
   eUsusario.Controller.Factory.Query in 'eUsusario.Controller.Factory.Query.pas',
-  eUsusario.Controller.Factory.Interfaces in 'eUsusario.Controller.Factory.Interfaces.pas';
+  eUsusario.Controller.Factory.Interfaces in 'eUsusario.Controller.Factory.Interfaces.pas',
+  eUsuario.View.Empresa in 'eUsuario.View.Empresa.pas' {Form2},
+  eUsusario.Model.Entidade.Empresa in 'eUsusario.Model.Entidade.Empresa.pas';
 
 {$R *.res}
 
@@ -16,5 +18,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.
